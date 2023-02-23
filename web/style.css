@@ -1,0 +1,57 @@
+.container-fluid{
+    padding: 0;
+}
+
+.height-100{
+    min-height: 100vh;
+}
+
+.red{
+    background-color: rgba(200, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.red>h1{
+    font-size: 5rem;
+}
+
+.red h1, .red p{
+    color: white;
+}
+
+#hero{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gray{
+    background-color: #CCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vw;
+}
+
+.gray>button{
+    background-color: transparent;
+    color: rgb(230, 80, 80);
+    border: 2px solid rgb(230, 80, 80);
+    padding: 10px;
+    max-width: 50%;
+    margin-top: 5vh;
+}
+
+.gray>button:hover{
+    background-color: rgb(230, 80, 80);
+    color: white;
+}
+
+#picture1{
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
